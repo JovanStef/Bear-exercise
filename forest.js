@@ -8,13 +8,13 @@ function dayAtforest(name) {
       var counter = getRandomNumber(1, 4)
       switch (counter) {
         case 1:
-          this.animals.push(new Deer('Deer', 150))
+          this.animals.push(new Deer('Deer', 100))
           break
         case 2:
           this.animals.push(new Rabbit('Rabbit', 6))
           break
         case 3:
-          this.animals.push(new Hog('Hog', 150))
+          this.animals.push(new Hog('Hog', 100))
           break
         case 4:
           this.animals.push(new Wolf('Wolf', 50))

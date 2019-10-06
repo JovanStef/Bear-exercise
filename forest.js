@@ -14,7 +14,7 @@ function dayAtforest(name) {
           this.animals.push(new Rabbit('Rabbit', 6))
           break
         case 3:
-          this.animals.push(new Hog('Hog', 100))
+          this.animals.push(new Hog('Hog', 150))
           break
         case 4:
           this.animals.push(new Wolf('Wolf', 50))
